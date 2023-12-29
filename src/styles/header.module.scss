@@ -1,0 +1,116 @@
+@import 'variables', 'mixins';
+
+.wrapper_header {
+  background-color: $black;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  margin-bottom: 15px;
+  padding: 0 10px;
+
+  &__logo {
+    @include heading18b;
+    color: $white;
+    text-align: center;
+  }
+
+  &__nav_item {
+    @include p16sb;
+    color: $white;
+    cursor: pointer;
+  }
+
+  @media(max-width: 1249px) { // Mobile
+    &__aside_button {
+      border: 0;
+      outline: 0;
+      padding: 0;
+      background: none;
+      cursor: pointer;
+      display: grid;
+
+      span {
+        transition: transform 300ms ease-in-out;
+        background-color: $white;
+        height: 5px;
+        width: 40px;
+
+        &:not(:last-child) {
+          margin-bottom: 5px;
+        }
+      }
+
+      &_active {
+        span { border-radius: 8px; }
+        span:nth-child(1) {
+          transform:
+                  translateY(10px)
+                  rotate(45deg);
+        }
+        span:nth-child(2) {
+          transform: translate(-120px);
+        }
+        span:nth-child(3) {
+          transform:
+                  translateY(-10px)
+                  rotate(-45deg);
+        }
+      }
+    }
+
+    &__nav {
+
+      &_list {
+        position: absolute;
+        background-color: $black;
+        padding: 40px;
+        transition: left 400ms ease-in-out;
+        top: 70px;
+        border-radius: 0 0 12px 0;
+
+        &_inactive { left: -500px; }
+        &_active { left: 0; }
+      }
+
+      &_item {
+        transition:
+                box-shadow 50ms ease-in-out,
+                background-color 200ms ease-in-out;
+        padding: 15px;
+        border-radius: 8px;
+
+        &:hover { background-color: $accent; }
+        &:active { box-shadow: 0 0 0 5px rgba($accent, 0.5); }
+      }
+    }
+  }
+  @media(min-width: 1250px) { // Desktop
+    flex-direction: row-reverse;
+    margin-bottom: 60px;
+
+    &__aside_button { display: none; }
+    &__nav {
+      &_list {
+        flex-wrap: nowrap;
+        display: flex;
+        align-items: center;
+      }
+      &_item {
+        transition: border-bottom 150ms ease-in-out;
+
+        &:hover {
+          border-bottom: 1px solid $accent;
+        }
+        &:not(:last-child)::after {
+          content: url('../images/header/delimiter.svg');
+          margin: 0 15px; // gap list
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@import 'variables', 'mixins';
+
+
+.thumb_slider {
+  background-color: $black5;
+  border-radius: 8px;
+  padding: 12px 16px;
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+
+  &_img {
+    height: 80px;
+    width: 80px;
+    border-radius: 8px;
+
+    img {
+      background-color: $black35;
+      object-fit: cover;
+      height: inherit;
+      width: inherit;
+      border-radius: inherit;
+    }
+  }
+
+  &_text {
+    @include p16sb;
+    width: 280px;
+    color: $black;
+  }
+}

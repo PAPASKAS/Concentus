@@ -1,0 +1,33 @@
+@import 'variables', 'mixins';
+
+.announcement_item {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+
+  &__time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: $accent;
+    border-radius: 12px;
+    width: 100px;
+    height: 100px;
+
+    &_day {
+      @include heading32b;
+      color: $white;
+    }
+
+    &_month {
+      @include heading18b;
+      color: $white;
+    }
+  }
+
+  &__text {
+    @include heading18b;
+    white-space: nowrap;
+  }
+}

@@ -1,0 +1,29 @@
+@import 'variables', 'mixins';
+
+.button {
+  cursor: pointer;
+  outline: none;
+  border: none;
+
+  @include p16sb;
+  color: $white;
+
+  background-color: $accent;
+  padding: 15px 30px;
+  border-radius: 50px;
+  white-space: nowrap;
+
+  transition:
+          outline 150ms ease-in-out,
+          box-shadow 500ms ease-in-out;
+
+  &:hover { box-shadow: 0 0 0 5px rgba($accent, 0.5); }
+  &:focus {
+    outline: 2px solid $white;
+    box-shadow: 0 0 0 5px rgba($accent, 0.8);
+  }
+  &:active {
+    outline: 2px solid $white;
+    box-shadow: 0 0 0 5px rgba($accent, 0.8);
+  }
+}

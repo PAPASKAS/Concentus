@@ -1,0 +1,179 @@
+//------FiraSans------//
+
+// 900
+@font-face {
+  font-family: 'FiraSans-Black', sans-serif;
+  src:
+          local('FiraSans-Black'),
+          url('./fonts/FiraSans-Black.ttf') format('truetype');
+  font-weight: 900;
+}
+@font-face {
+  font-family: 'FiraSans-BlackItalic', sans-serif;
+  src:
+          local('FiraSans-BlackItalic'),
+          url('./fonts/FiraSans-BlackItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+// 800
+@font-face {
+  font-family: 'FiraSans-ExtraBold', sans-serif;
+  src:
+          local('FiraSans-ExtraBold'),
+          url('./fonts/FiraSans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'FiraSans-ExtraBoldItalic', sans-serif;
+  src:
+          local('FiraSans-ExtraBoldItalic'),
+          url('./fonts/FiraSans-ExtraBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+}
+
+// 700
+@font-face {
+  font-family: 'FiraSans-Bold', sans-serif;
+  src:
+          local('FiraSans-Bold'),
+          url('./fonts/FiraSans-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'FiraSans-BoldItalic', sans-serif;
+  src:
+          local('FiraSans-BoldItalic'),
+          url('./fonts/FiraSans-BoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+// 600
+@font-face {
+  font-family: 'FiraSans-SemiBold', sans-serif;
+  src:
+          local('FiraSans-SemiBold'),
+          url('./fonts/FiraSans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'FiraSans-SemiBoldItalic', sans-serif;
+  src:
+          local('FiraSans-SemiBoldItalic'),
+          url('./fonts/FiraSans-SemiBoldItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+
+// 500
+@font-face {
+  font-family: 'FiraSans-Medium', sans-serif;
+  src:
+          local('FiraSans-Medium'),
+          url('./fonts/FiraSans-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'FiraSans-MediumItalic', sans-serif;
+  src:
+          local('FiraSans-MediumItalic'),
+          url('./fonts/FiraSans-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+}
+
+// 400
+@font-face {
+  font-family: 'FiraSans-Regular', sans-serif;
+  src:
+          local('FiraSans-Regular'),
+          url('./fonts/FiraSans-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'FiraSans-Italic', sans-serif;
+  src:
+          local('FiraSans-Italic'),
+          url('./fonts/FiraSans-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+// 300
+@font-face {
+  font-family: 'FiraSans-Light', sans-serif;
+  src:
+          local('FiraSans-Light'),
+          url('./fonts/FiraSans-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'FiraSans-LightItalic', sans-serif;
+  src:
+          local('FiraSans-LightItalic'),
+          url('./fonts/FiraSans-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+
+// 200
+@font-face {
+  font-family: 'FiraSans-ExtraLight', sans-serif;
+  src:
+          local('FiraSans-ExtraLight'),
+          url('./fonts/FiraSans-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'FiraSans-ExtraLightItalic', sans-serif;
+  src:
+          local('FiraSans-ExtraLightItalic'),
+          url('./fonts/FiraSans-ExtraLightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200;
+}
+
+// 100
+@font-face {
+  font-family: 'FiraSans-Thin', sans-serif;
+  src:
+          local('FiraSans-Thin'),
+          url('./fonts/FiraSans-Thin.ttf') format('truetype');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'FiraSans-ThinItalic', sans-serif;
+  src:
+          local('FiraSans-ThinItalic'),
+          url('./fonts/FiraSans-ThinItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 100;
+}
+
+
+//------Garamond------//
+@font-face {
+  font-family: 'Garamond-Bold', serif;
+  src:
+          local('Garamond-Bold'),
+          url('./fonts/Garamond-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Garamond-Regular', serif;
+  src:
+          local('Garamond-Regular'),
+          url('./fonts/Garamond-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Garamond-Italic', serif;
+  src:
+          local('Garamond-Italic'),
+          url('./fonts/Garamond-Italic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
