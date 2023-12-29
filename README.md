@@ -1,7 +1,3 @@
-# Start docker
-    1. 
-
-
-# Start npm
+# Start project
     1. npm install
     2. npm run start
